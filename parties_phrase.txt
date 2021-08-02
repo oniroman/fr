@@ -1,9 +1,6 @@
 le sujet
-le COD
-le complément d'objet direct
-le complément d'objet indirect
-le COI
+le complément d'objet direct (COD)
+le complément d'objet indirect (COI)
 le verbe
 le verbe conjugué
 le complément d'agent
-...
