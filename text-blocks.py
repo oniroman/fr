@@ -1,13 +1,8 @@
-mots_interrog = ["qui", "que", "qu'", "quoi", "quel", "quels", "quelle",
-                 "quelles", "où", "est-ce-que", "pourquoi", "combien",
-                 "combien de", "combien d'", "comment", "quand",
-                 "à qui", "à quoi", "à quelle heure", "à combien de",
-                 "avec qui", "avec quoi", "avec quel", "pour qui", "pour combien",
-                 "de qui", "de quoi", "de quel"]
+interrogatifs = []
 def txt_file_to_list(file_string):
     my_list = []
     with open(file_string, 'r', encoding='utf8') as f:
-        my_list = [t.lower().rstrip() for t in f]
+        my_list = [t.rstrip() for t in f]
         my_list = sorted(my_list)
     return my_list
 
@@ -30,7 +25,5 @@ def prettier(list_of_things):
     return lines
 
 
-print(prettier(txt_file_to_list('instructions.txt')))
-print(prettier(txt_file_to_list('manières.txt')))
-print(prettier(txt_file_to_list('étapes.txt')))
-print(prettier(txt_file_to_list('endroit.txt')))
+print(prettier(txt_file_to_list('txt/mots.txt')))
+

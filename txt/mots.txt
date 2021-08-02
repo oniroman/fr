@@ -1,0 +1,19 @@
+article défini
+article indéfini
+article
+article partitif
+pronom
+pronom personnel sujet
+pronom personnel COD
+pronom personnel COI
+pronom possessif
+pronom relatif
+préposition
+adverbe
+adverbe de lieu
+adverbe de temps
+verbe
+substantif
+adjectif
+adjectif qualificatif
+conjonction
